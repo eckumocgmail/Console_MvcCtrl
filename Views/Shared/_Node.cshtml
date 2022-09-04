@@ -1,0 +1,14 @@
+﻿@model CommonNode<object>
+
+
+
+    Catalog
+<details>
+    <summary>@Model.Name</summary>
+    <div>
+        @foreach(var pchild in Model.HierElements)
+        {
+            <partial name="_Node" model="@pchild.Value"></partial>
+        }
+    </div>
+</details>

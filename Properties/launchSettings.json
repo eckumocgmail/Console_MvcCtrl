@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ConsoleMvc": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:9006"
+    }
+  }
+}
